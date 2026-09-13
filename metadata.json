@@ -1,0 +1,6 @@
+{
+  "name": "Brand Bible",
+  "description": "Comprehensive brand identity suite generating Brand Bibles with logos, secondary marks, 5-color palettes, typography pairings, and AI strategy consulting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

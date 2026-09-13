@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Centered within 66dp safe zone (21,21 to 87,87) -->
+    <!-- Brand Crown / Diamond / Lettermark B design -->
+    <!-- Left wing of Diamond Mark -->
+    <path
+        android:pathData="M54,28 L33,49 L54,70 L46,78 L17,49 L54,12 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="17"
+                android:startY="12"
+                android:endX="54"
+                android:endY="78"
+                android:type="linear">
+                <item android:color="#818CF8" android:offset="0.0" />
+                <item android:color="#4F46E5" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Right wing / Vibrant Brand Emblem -->
+    <path
+        android:pathData="M54,28 L75,49 L54,70 L62,78 L91,49 L54,12 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="12"
+                android:endX="91"
+                android:endY="78"
+                android:type="linear">
+                <item android:color="#F43F5E" android:offset="0.0" />
+                <item android:color="#FB7185" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Center Core Spark / Star -->
+    <path
+        android:pathData="M54,40 L57,49 L66,52 L57,55 L54,64 L51,55 L42,52 L51,49 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="42"
+                android:startY="40"
+                android:endX="66"
+                android:endY="64"
+                android:type="linear">
+                <item android:color="#FDE047" android:offset="0.0" />
+                <item android:color="#F59E0B" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Lower anchor dot -->
+    <path
+        android:pathData="M54,84m-4,0a4,4 0 1,0 8,0a4,4 0 1,0 -8,0"
+        android:fillColor="#FBBF24" />
+</vector>
